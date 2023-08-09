@@ -1,4 +1,4 @@
-import './App.css'
+// import './App.css'
 import Encabezado from './components/header/header'
 
 function App() {

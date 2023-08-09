@@ -5,22 +5,20 @@ import "../../assets/logoportal.png"
 
 const Encabezado = () => {// No nombrar funciones con etiquetas reservadas de HTML como header, body, etc.
     return (
-        <>
-            <header class="header">
-                <div class="menu">
-                    <img src="../../assets/logoportal.png"></img>
-                    <nav>
-                        <MenuEnlaces />
-                    </nav>
-                    <div class="empresas">
-                        <span class="material-icons vaca">
-                            login
-                        </span>
-                        <h6 class="vaca">EMPRESAS</h6>
-                    </div>
+        <div className="header">
+            <div class="menu">
+                <img src="../../assets/logoportal.png"></img>
+                <nav>
+                    <MenuEnlaces />
+                </nav>
+                <div class="empresas">
+                    <span class="material-icons vaca">
+                        login
+                    </span>
+                    <h6 class="vaca">EMPRESAS</h6>
                 </div>
-            </header>
-        </>
+            </div>
+        </div>
     )
 }
 
