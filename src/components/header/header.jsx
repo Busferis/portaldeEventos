@@ -15,7 +15,7 @@ const Encabezado = () => {// No nombrar funciones con etiquetas reservadas de HT
                 </span>
                 <h6 class="vaca">EMPRESAS</h6>
             </div> */}
-            <Login />
+                <Login />
         </div>
     )
 }
