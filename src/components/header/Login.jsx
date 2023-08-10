@@ -4,7 +4,7 @@ const Login = () => {
   return (
     <div className='flex'>
         <i className='material-icons-outlined'></i>
-        <h6>Nombre</h6>
+        <h6>NombreUsuario</h6>
     </div>
   )
 }
