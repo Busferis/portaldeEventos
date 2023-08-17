@@ -1,10 +1,12 @@
 import React from "react";
 import './body.css';
-
+import Portada from "./Portada";
 
 const MainBody = () => {
   return (
-    <div className="body"></div>
+    <div className="body">
+        <Portada />
+    </div>
   )
 }
 

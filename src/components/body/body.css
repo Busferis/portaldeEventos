@@ -1,4 +1,4 @@
-.body{
+.portada{
     background-image: url(https://erinmartonphoto.com/wp-content/uploads/sites/11888/2022/06/garden-party-wedding-los-angeles-1-1024x683.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,4 +7,31 @@
     height: 625px;
     align-items: center;
     margin-bottom: 15px;
+}
+
+.barra {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 100%;
+    background-color: rgba(170,143,83,0.83);
+}
+
+.titulo_Barra {
+    color: white;
+    margin-top: 22px;
+}
+
+h1{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+select {
+    padding: 8px;
+    color: gray;
+}
+
+select.cars2 {
+    width: 230px;
 }
