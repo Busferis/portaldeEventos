@@ -7,9 +7,7 @@
 .vaca {color: gray!important;}
 
 li{
-    float: left;
     font-family: 'Quicksand', sans-serif;
-    /* padding: 5px 20px; */
 }
 
 li{font-size: 12pt; font-weight: 800; letter-spacing: 0.7px;}
@@ -19,17 +17,12 @@ li{font-size: 12pt; font-weight: 800; letter-spacing: 0.7px;}
     max-width: 1920px;
     display: flex;
     overflow: hidden;
-    margin: auto;
-    /* height: 60px; */
-    background-color: rgb(119, 82, 34);
-    flex-direction: column;
 }
 .header .menu{
     height: 85px;
     display: flex;
     margin-left: 10%;
     gap: 55px;
-    background-color: pink;
 }
 img{
     height: 55px;
@@ -46,6 +39,9 @@ ul{
     display: flex;
     margin-left: 50px;
 }
+.material-icons-outlined{
+    font-size: 15pt;
+}
 /******************* COLORES *******************/
 
 body{color: dimgray; padding: 0;/* width: 92%;*/ max-width: 1650px; margin: 0; height: 200px;}
@@ -54,20 +50,19 @@ body{color: dimgray; padding: 0;/* width: 92%;*/ max-width: 1650px; margin: 0; h
 .oro60 {background-color: rgba(170,143,83,0.6); color: white!important;}
 .gris1 {background-color: rgba(128,128,128,1); color: white!important;}
 .gris2 {background-color: rgba(77,77,77,1); color: white!important;}
-.toro {color: rgba(170,143,83,1)!important;}
 
 .blanco {border: solid 2px rgba(170,143,83,1); background-color: white}
 
 /******************* ENCABEZADOS Y SUBTITULOS *******************/
 h1, h2, h3, h4, h5, h6, .sub16, .boton {font-family: 'Quicksand', sans-serif;}
-h2, h3, h4, h5, h6 {margin-bottom:0.5em;}
+h2, h3, h4, h5 {margin-bottom:0.5em;}
 
 h1{font-size: 50pt; font-weight: 300; /*light*/ letter-spacing: 5px;}
 h2{font-size: 24pt; font-weight: 400; letter-spacing: 5px;}
 h3{font-size: 18pt; font-weight: 400;/*regular*/ letter-spacing: 1px;}
 h4{font-size: 16pt; font-weight: 500; letter-spacing: 0px;}
 h5{font-size: 12pt; font-weight: 500; /*MEDIUM*/ letter-spacing: 0px;}
-h6{font-size: 12pt; font-weight: 700;/*bold*/ letter-spacing: 0px;}
+h6{font-size: 9pt; font-weight: 700;/*bold*/ letter-spacing: 0.7px; padding: 3px;}
 .boton{font-size: 12pt; font-weight: 400; text-transform: uppercase; color: white; letter-spacing: 2px;}
 .sub16{font-size: 16pt; font-weight: 400; letter-spacing: 5px;}
 

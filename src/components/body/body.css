@@ -1,0 +1,10 @@
+.body{
+    background-image: url(https://erinmartonphoto.com/wp-content/uploads/sites/11888/2022/06/garden-party-wedding-los-angeles-1-1024x683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-color: blue;
+    height: 625px;
+    align-items: center;
+    margin-bottom: 15px;
+}
