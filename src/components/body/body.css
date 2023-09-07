@@ -67,12 +67,17 @@ select.cars2 {
 
 .portada2 {
     display: flex;
-    background-color: blueviolet;
+    background-color: gainsboro;
     height: 468px;
     justify-content: space-evenly;
     margin-bottom: 15px;
 }
-
+.portada_img{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQT6CFkon_oifNd32v-iLMElZ5mF2PiHieeD8cQphb0iFWIpkr0iLg_7WvfyeNDhtBXb8&usqp=CAU);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .cubito1 {
     height: 75px;
     width: 55px;
@@ -83,7 +88,6 @@ select.cars2 {
     color: white;
     font-size: 43pt;
 }
-
 .cubito2 {
     height: 75px;
     width: 55px;
@@ -95,7 +99,6 @@ select.cars2 {
     color: white;
     font-size: 43pt;
 }
-
 .seccion{
     display: flex;
     height: 260px;
@@ -103,6 +106,24 @@ select.cars2 {
     background-color: black;
     margin-bottom: 15px;
     justify-content: center;
+}
+.sec_img1{
+    background-image: url(https://img.freepik.com/premium-photo/decision-making-concept-new-idea-light-bulb-hands-man-black-background_275805-647.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec_img2{
+    background-image: url(https://www.acacia-au.com/uploads/Excited-Girl-Computer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec_img3{
+    background-image: url(https://www.funtastyc.es/blog/wp-content/uploads/2020/08/organizar-eventos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .barra_seccion{
     display: flex;
