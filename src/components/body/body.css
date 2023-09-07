@@ -73,10 +73,27 @@ select.cars2 {
     margin-bottom: 15px;
 }
 
-.cubito {
-    height: 50px;
-    width: 50px;
+.cubito1 {
+    height: 75px;
+    width: 55px;
     background-color: rgba(170,143,83,0.83);
+    display: flex;
+}
+.cubito1 .material-icons-outlined{
+    color: white;
+    font-size: 43pt;
+}
+
+.cubito2 {
+    height: 75px;
+    width: 55px;
+    background-color: rgba(170,143,83,0.83);
+    margin-left: 92%;
+    display: flex;
+}
+.cubito2 .material-icons-outlined{
+    color: white;
+    font-size: 43pt;
 }
 
 .seccion{

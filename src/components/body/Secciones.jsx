@@ -6,7 +6,7 @@ const Secciones = () => {
             <div className="seccion">
                 <div className="barra_seccion">Ideas & Notas</div>
             </div>
-            <div className="seccion sec_img2">
+            <div className="seccion">
                 <div className="barra_seccion">Promociones</div>
             </div>
             <div className="seccion">
