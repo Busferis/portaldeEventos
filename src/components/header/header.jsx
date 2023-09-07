@@ -3,7 +3,7 @@ import MenuEnlaces from "./MenuEnlaces"
 import "./header.css"
 // import "../../assets/logoportal.png"
 import Login from "./Login"
-import logoPortal from './imgs/logoportal.png'
+import logoPortal from '../imgs/logoportal.png'
 
 const Encabezado = () => {// No nombrar funciones con etiquetas reservadas de HTML como header, body, etc.
     return (

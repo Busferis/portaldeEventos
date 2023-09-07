@@ -1,5 +1,4 @@
 import React from 'react';
-import Busqueda_Barra from './Busqueda_Barra';
 
 const Portada = () => {
   return (
@@ -9,15 +8,15 @@ const Portada = () => {
                 <h1>ENCONTRÁ TODO PARA TU EVENTO</h1>
             </div>
             <div className='busqueda_Barra'>
-                <select class="custom-select" name="cars1">
+                <select className="custom-select" name="cars1">
                     <option value="volvo">Zona: ejemplo San Miguel</option>
                 </select>
-                <select class="cars2" name="cars2">
+                <select className="cars2" name="cars2">
                     <option value="volvo">¿Qué estás buscando?</option>
                 </select>
-                <button class="button" type="submit">
-                    <span class="material-icons">search</span>
-                    <p class="parrafo_Button">BUSCAR</p>
+                <button className="button" type="submit">
+                    <span className="material-icons-outlined">search</span>
+                    <p className="parrafo_Button">BUSCAR</p>
                 </button>
             </div>
         </div>

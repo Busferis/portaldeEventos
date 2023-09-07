@@ -3,7 +3,7 @@ import React from "react";
 const MenuEnlaces = () => {
     return (
         <nav>
-            <ul class="toro">
+            <ul className="toro">
                 <li>CATEGORÍAS</li>
                 <li>SALONES</li>
                 <li>IMAGEN PERSONAL</li>

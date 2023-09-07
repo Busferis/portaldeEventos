@@ -22,6 +22,35 @@
     margin-top: 22px;
 }
 
+.busqueda_Barra {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.button{
+    display: flex;
+    background-color: rgb(102, 102, 102);
+    color: white;
+    border: none;
+    align-items: center;
+    height: 35px;
+    width: 150px;
+    border-radius: 0px 0px 12px 0px;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    font-size: 12pt;
+    letter-spacing: 0.8px;
+    gap: 5px
+}
+
+.barra .material-icons-outlined{
+    margin: 0;
+}
+.parrafo_Button{
+    margin: 0;
+}
+
 h1{
     font-weight: 500;
     letter-spacing: 1px;
@@ -35,3 +64,56 @@ select {
 select.cars2 {
     width: 230px;
 }
+
+.portada2 {
+    display: flex;
+    background-color: blueviolet;
+    height: 468px;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.cubito {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(170,143,83,0.83);
+}
+
+.seccion{
+    display: flex;
+    height: 260px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.barra_seccion{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(170,143,83,0.83);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    text-align: center;
+    font-size: 30pt;
+    letter-spacing: 3px;
+}
+.cartel_padre{
+    height: 250px;
+    width: 100%;
+    padding: 0 10%;
+    margin-bottom: 15px;
+}
+.cartel{
+    height: 250px;
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+    padding: 15px;
+    border-color: rgb(170,143,83,1);
+}
+.cartel h2{font-weight: lighter; color: rgb(170,143,83,1);}
+.cartel h1{font-size: 31pt; color: rgb(170,143,83,1);}
+.cartel p{font-family: 'Quicksand', sans-serif; font-size: 18pt; color: rgb(102, 102, 102);}
